@@ -8,8 +8,8 @@
     <meta name="author" content="INIAD">
   </head>
 
-  <body>
-    <h1>Sample To Do Application</h1>
+  <body style="padding-left: 15px; padding-right: 15px;">
+    <h1 align="center">Sample To Do Application</h1>
     <p>You can submit tasks from the following form.</p>
     <form action="{% url 'index' %}" method="post">
       {% csrf_token %}
